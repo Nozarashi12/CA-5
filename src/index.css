@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card {
+  transition: box-shadow 0.3s, transform 0.3s;
+  box-shadow: rgb(69, 69, 69) 3px 3px 0px;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 7px black;
+  transform: scale(1.1);
+}
+
+.buton {
+  /* border: 3px solid black; */
+  /* background-color: red; */
+  width: 120px;
+  height: 35px;
+  border:1px solid white;
+}
+
+.nav {
+  height: 150px;
+}
+
+.inputbox {
+  width: 600px;
+  box-shadow: 2px 2px 5px black;
+  padding-left: 20px;
+  height: 45px;
+  border: 3px solid black;
+}
+
+.rating {
+  /* margin-left: 250px;
+  margin-top: -25px; */
+}
+
+li {
+  height: 455px;
+}
+
+.main {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 200px;
+}
+
+.name {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.formm {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 580px;
+  margin-top: 30px;
+}
+
+.inputs {
+  padding: 5%;
+  width: 300px;
+  display: flex;
+  margin-bottom: 10px;
+  height: 35px;
+  /* border: 3px solid black; */
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+
+
+
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.errormsg {
+  color: red;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.navigation{
+  height: 150px;
+  background-color: #423653;
+  background-image:url('https://kalvium.community/images/livebooks_grid_tablet.svg');
+  border: 2px solid black;
+}
+.result{
+  /* background-image: url('https://kalvium.community/images/launcher-orange-grid.svg'); */
+
+}
+.nav2{
+  background-image:url('https://kalvium.community/images/livebooks_grid_tablet.svg');
+  background-color:#423653;
+  height: 150px; 
+  width: 100%;   
+}
+.mainform{
+  background-image: url('https://kalvium.community/images/login-bg.svg');
+}
+li{
+  border: 3px solid black;
+}
